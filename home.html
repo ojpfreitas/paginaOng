@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,11 +21,12 @@
         }
         .divIsolada2 {
             background-color: #743b69;
-            height: 80px;
+            height: 100px;
         }
         .header{
             display: flex;
             font-family: "Roboto";
+            color: #ffffff;
         }
         .header ul{
             margin-top: 100px;
@@ -62,14 +63,31 @@
             display: flex;
             margin: 50px;
             font-family: "Open sans";
+            color: #ffffff;
         }
         .rodape{
             display: flex;
             align-items: center;
+            justify-content: center;
             margin: 50px;
+            color: #ffffff;
         }
         .rodape div{
-            padding: 80px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .divGrafico{
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            justify-content: center;
+            color: #ffffff;
+            font-family: "Roboto";
+        }
+        .divGrafico div {
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
         }
     </style>
 </head>
@@ -77,11 +95,11 @@
 <body class="container">
     <header>
         <div class="header">
-            <img class="logo" src="./ong.png">
+            <img class="logo" src="./logos/logo-ong.png">
             <ul>
-                <li><a href="./paginateste.html">Home</a></li>
-                <li>Sobre</li>
-                <li>Adoção</li>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./adocao.html">Adoção</a></li>
                 <li>Como Ajudar</li>
                 <li>Dicas e Cuidados</li>
                 <li>Eventos</li>
@@ -97,13 +115,28 @@
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>            
         </div>
         <div>
-            <img class="foto1" src="./foto1.png">
+            <img class="foto1" src="./imagens/foto1.png">
         </div>
     </div>
-    <div class="divIsolada2"></div>
+    <div class="divIsolada2">
+        <div class="divGrafico">
+            <div>
+                <p>7000</p>
+                <p>Animais resgatados</p>
+            </div>  
+            <div>
+                <p>400</p>
+                <p>Animais adotados</p>
+            </div>
+            <div>
+                <p>500</p>
+                <p>Procedimentos de consultas</p>
+            </div>
+        </div>
+    </div>
     <div class="containerCorpo">
         <div>
-            <img class="foto1" src="./foto2.png">
+            <img class="foto1" src="./imagens/foto2.png">
         </div>
         <div> 
             <h4>Conheça nosso trabalho</h4>

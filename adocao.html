@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Adoção</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: #3a7ca5;
+        }
+        .divIsolada {
+            background-color: #2da8e0;
+            height: 80px;
+        }
+        .header{
+            display: flex;
+            font-family: "Roboto";
+            color: #ffffff;
+        }
+        .header ul{
+            margin-top: 100px;
+        }
+        .header li{
+            display: inline-block;
+            padding-left: 30px;
+            text-decoration: underline;
+            color: white;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;  
+            border-radius: 15px;
+            margin: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .texto1{
+            font-family: "Open sans";
+            margin-left: 80px;
+        }
+        .foto1{
+            width: 580px;
+            height: 290px;
+            margin: 30px;
+        }
+        section{
+            display: flex;
+        }
+        .containerCorpo{
+            display: flex;
+            margin: 50px;
+            font-family: "Open sans";
+            color: #ffffff;
+        }
+        .rodape{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px;
+            color: #ffffff;
+        }
+        .rodape div{
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .animaisAdocao{
+            display: center;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            color: #ffffff;
+            font-family: "Open sans";
+        }
+        .imagensAnimais{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+            gap: 20px; /* espaço entre as imagens */
+            justify-items: center; /* centraliza as imagens em cada célula */
+        }
+        .imagensAnimais p{
+            margin-top: 8px;
+        }
+        .animais{
+            width: 200px;
+            height: 200px;
+            padding-bottom: 60px;
+            padding-right: 80px;
+        }
+        .buttonAdotar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 80px;
+        }
+        .buttonAdotar button{
+            background-color: #c63d78;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            padding-left: 40px;
+            padding-right: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <header>
+        <div class="header">
+            <img class="logo" src="./logos/logo-ong.png">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./adocao.html">Adoção</a></li>
+                <li>Como Ajudar</li>
+                <li>Dicas e Cuidados</li>
+                <li>Eventos</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </div>
+        <div class="divIsolada"></div>
+    </header>
+    <div class="containerCorpo">
+        <div> 
+            <h4>Como Adotar?</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the 1500s, when an unknown printer took a galley  of type and scrambled it to make a type specimen book.
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>            
+        </div>
+    </div>
+    <div class="containerCorpo">
+        <div> 
+            <h4>Requisitos para Adoção</h4>
+            <ul>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="animaisAdocao">
+        <div>
+            <h4>Disponíveis para Adoção</h4>
+            <div class="imagensAnimais">
+                <div>    
+                    <a href="./animais/animal1.png"><img class="animais" src="./animais/animal1.png"></a>
+                    <p>Bob</p>
+                </div>
+                <div>
+                    <a href="./animais/animal2.png"><img class="animais" src="./animais/animal2.png"></a>
+                    <p>Scooby</p>
+                </div>
+                <div>
+                    <a href="./animais/animal3.png"><img class="animais" src="./animais/animal3.png"></a>
+                    <p>Toby</p>
+                </div>
+                <div>
+                    <a href="./animais/animal4.png"><img class="animais" src="./animais/animal4.png"></a>
+                    <p>Alfredo</p>
+                </div>
+                <div>
+                    <a href="./animais/animal5.png"><img class="animais" src="./animais/animal5.png"></a>
+                    <p>Luna</p>
+                </div>
+                <div>
+                    <a href="./animais/animal6.png"><img class="animais" src="./animais/animal6.png"></a>
+                    <p>Panqueca</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="buttonAdotar">
+        <a href="./home.html"><button>Quero Adotar</button></a>
+    </div>
+    <div class="divIsolada"></div>
+    <footer class="rodape">
+        <div>
+            <p>Link pagina 1</p>           
+        </div>
+        <div>
+            <p>Anim@al ponto.com</p>
+            <p>CNJP 01.030.234./0001-42</p>
+            <p>Endereço: Rua , 123,</p>
+            <p> Criciúma-SC CEP: 888.00-000</p>
+        </div>
+        <div>
+            <p>Desenvolvido por</p>
+        </div>
+    </footer>
+</body>
+</html>
