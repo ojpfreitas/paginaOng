@@ -125,8 +125,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px;
-            margin-bottom: 80px;
         }
         .buttonAdotar button{
             background-color: #c63d78;
@@ -139,6 +137,27 @@
             cursor: pointer;
             font-family: "Roboto";
         }
+        .formulario{
+            justify-content: center;
+            align-items: center;    
+            display: flex;
+            margin: 40px;
+        }   
+        .dadosForm{
+            background-color: #7a3b69;
+            width: 600px;
+            height: 150px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .camposForm{
+            margin: 10px;
+        }
+        .tituloForm{
+            font-family: "Open sans";
+            text-align: center;
+            color: #ffffff;
+        }
     </style>
 </head>
 
@@ -147,13 +166,13 @@
         <div class="header">
             <img class="logo" src="./logos/logo-ong.png">
             <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./adocao.html">Adoção</a></li>
-                <li><a href="./comoAjudar.html">Como Ajudar</a></li>
-                <li><a href="./dicasCuidados.html">Dicas e Cuidados</a></li>
-                <li><a href="./eventos.html">Eventos</a></li>
-                <li><a href="faleConosco.html">Fale Conosco</a></li>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Adoção</li>
+                <li>Como Ajudar</li>
+                <li>Dicas e Cuidados</li>
+                <li>Eventos</li>
+                <li>Fale Conosco</li>
             </ul>
         </div>
         <div class="divIsolada"></div>
@@ -229,19 +248,27 @@
                 </div>
 
                 <div class="cardAnimal">
-                    <a href="./animais/animal6.webp"><img src="./animais/animal6.webp"></a>
+                    <img src="./animais/animal6.webp">
                     <div>
                         <h2>Lindinha</h2>
                         <p>Femea · 3 anos</p>
                         <p>Calma e muito dócil, ideal para companhia.</p>
                     </div>
                 </div>
-            
             </div>
         </div>
     </div>
-    <div class="buttonAdotar">
-        <a href="./formAdotar.html"><button>Quero Adotar</button></a>
+    <div class="formulario">
+        <div class="dadosForm">
+            <div class="camposForm">
+                <div class="tituloForm">
+                    <h2>Enviado com Sucesso</h2>
+                </div>
+            </div>
+            <div class="buttonAdotar">
+                <a href="./adocao.html"><button>Ok</button></a>
+            </div>
+        </div>   
     </div>
     <div class="divIsolada"></div>
     <footer class="rodape">
