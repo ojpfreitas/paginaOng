@@ -89,75 +89,88 @@
             padding-left: 100px;
             padding-right: 100px;
         }
+        .wrapper{
+            max-width: 1200px;     /* largura máxima da página */
+            margin: 0 auto;        /* centraliza horizontalmente */
+        }
+        html, body {
+            width: 100%;
+            display: flex;
+            justify-content: center;   /* mantém no centro ao dar zoom */
+        }
     </style>
 </head>
 
 <body class="container">
-    <header>
-        <div class="header">
-            <img class="logo" src="./logos/logo-ong.png">
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./adocao.html">Adoção</a></li>
-                <li>Como Ajudar</li>
-                <li>Dicas e Cuidados</li>
-                <li>Eventos</li>
-                <li>Fale Conosco</li>
-            </ul>
+    <div class="wrapper">
+        <header>    
+            <div class="header">
+                <div>
+                    <img class="logo" src="./logos/logo-ong.png">
+                </div>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./adocao.html">Adoção</a></li>
+                    <li><a href="./comoAjudar.html">Como Ajudar</a></li>
+                    <li><a href="./dicasCuidados.html">Dicas e Cuidados</a></li>
+                    <li><a href="./eventos.html">Eventos</a></li>
+                    <li><a href="faleConosco.html">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div class="divIsolada"></div>
+        </header>
+        <div class="containerCorpo">
+            <div> 
+                <h2>Notícias</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the 1500s, when an unknown printer took a galley  of type and scrambled it to make a type specimen book.
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>            
+            </div>
+            <div>
+                <img class="foto1" src="./imagens/foto1.png">
+            </div>
+        </div>
+        <div class="divIsolada2">
+            <div class="divGrafico">
+                <div>
+                    <p>7000</p>
+                    <p>Animais resgatados</p>
+                </div>  
+                <div>
+                    <p>400</p>
+                    <p>Animais adotados</p>
+                </div>
+                <div>
+                    <p>500</p>
+                    <p>Procedimentos de consultas</p>
+                </div>
+            </div>
+        </div>
+        <div class="containerCorpo">
+            <div>
+                <img class="foto1" src="./imagens/foto2.png">
+            </div>
+            <div> 
+                <h2>Conheça nosso trabalho</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the 1500s, when an unknown printer took a galley  of type and scrambled it to make a type specimen book.
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </div>
         </div>
         <div class="divIsolada"></div>
-    </header>
-    <div class="containerCorpo">
-        <div> 
-            <h4>Notícias</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the 1500s, when an unknown printer took a galley  of type and scrambled it to make a type specimen book.
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>            
-        </div>
-        <div>
-            <img class="foto1" src="./imagens/foto1.png">
-        </div>
-    </div>
-    <div class="divIsolada2">
-        <div class="divGrafico">
+        <footer class="rodape">
             <div>
-                <p>7000</p>
-                <p>Animais resgatados</p>
-            </div>  
-            <div>
-                <p>400</p>
-                <p>Animais adotados</p>
+                <p>Link pagina 1</p>           
             </div>
             <div>
-                <p>500</p>
-                <p>Procedimentos de consultas</p>
+                <p>Anim@al ponto.com</p>
+                <p>CNJP 01.030.234./0001-42</p>
+                <p>Endereço: Rua , 123,</p>
+                <p> Criciúma-SC CEP: 888.00-000</p>
             </div>
-        </div>
+            <div>
+                <p>Desenvolvido por</p>
+            </div>
+        </footer>
     </div>
-    <div class="containerCorpo">
-        <div>
-            <img class="foto1" src="./imagens/foto2.png">
-        </div>
-        <div> 
-            <h4>Conheça nosso trabalho</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the 1500s, when an unknown printer took a galley  of type and scrambled it to make a type specimen book.
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-        </div>
-    </div>
-    <div class="divIsolada"></div>
-    <footer class="rodape">
-        <div>
-            <p>Link pagina 1</p>           
-        </div>
-        <div>
-            <p>Anim@al ponto.com</p>
-            <p>CNJP 01.030.234./0001-42</p>
-            <p>Endereço: Rua , 123,</p>
-            <p> Criciúma-SC CEP: 888.00-000</p>
-        </div>
-        <div>
-            <p>Desenvolvido por</p>
-        </div>
-    </footer>
 </body>
 </html>
