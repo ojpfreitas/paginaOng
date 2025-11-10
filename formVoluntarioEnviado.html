@@ -112,24 +112,12 @@
         .dadosForm{
             background-color: #7a3b69;
             width: 500px;
-            height: 600px;
+            height: 150px;
             padding: 20px;
             border-radius: 10px;
         }
         .camposForm{
             margin: 10px;
-        }
-        input{
-            background-color: #ff89ed;
-            margin-bottom: 20px;
-            font-size: 20px;
-            font-family: "Roboto";
-            color: #000000;
-            border-radius: 6px;
-        }
-        input::placeholder{
-            font-family: "Roboto";
-            color: #000000;
         }
         form{
             display: flex;
@@ -140,17 +128,6 @@
             text-align: center;
             color: #ffffff;
         }
-        .voltar{
-            color: #ff89ed;
-            display: flex;
-            justify-content: right;
-            align-items: right;
-        }
-        .buttonX{
-            width: 40px;
-            height: 40px;
-            cursor: pointer;
-        }
     </style>
 </head>
 
@@ -159,13 +136,13 @@
         <div class="header">
             <img class="logo" src="./logos/logo-ong.png">
             <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./adocao.html">Adoção</a></li>
-                <li><a href="./comoAjudar.html">Como Ajudar</a></li>
-                <li><a href="./dicasCuidados.html">Dicas e Cuidados</a></li>
-                <li><a href="./eventos.html">Eventos</a></li>
-                <li><a href="faleConosco.html">Fale Conosco</a></li>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Adoção</li>
+                <li>Como Ajudar</li>
+                <li>Dicas e Cuidados</li>
+                <li>Eventos</li>
+                <li>Fale Conosco</li>
             </ul>
         </div>
         <div class="divIsolada"></div>
@@ -178,8 +155,17 @@
             </p>
         </div>
     </div>
-    <div class="buttonVoluntario">
-        <a href="./formVoluntario.html"><button>Seja um Voluntário</button></a>
+    <div class="formulario">
+        <div class="dadosForm">
+            <div class="camposForm">
+                <div class="tituloForm">
+                    <h2>Enviado com Sucesso</h2>
+                </div>
+            </div>
+            <div class="buttonVoluntario">
+                <a href="./faleConosco.html"><button>Ok</button></a>
+            </div>
+        </div>   
     </div>
     <div class="containerCorpo">
         <div>
@@ -201,7 +187,7 @@
         </div>
     </div>
     <div class="buttonVoluntario">
-        <a href="./formTrabalhe.html"><button>Trabalhe Conosco</button></a>
+        <button>Trabalhe Conosco</button>
     </div>
     <div class="divIsolada"></div>
     <footer class="rodape">

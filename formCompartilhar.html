@@ -136,6 +136,56 @@
             cursor: pointer;
             font-family: "Roboto";
         }
+        
+        .formulario{
+            justify-content: center;
+            align-items: center;    
+            display: flex;
+            margin: 40px;
+        }   
+        .dadosForm{
+            background-color: #7a3b69;
+            width: 500px;
+            height: 300px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .camposForm{
+            margin: 10px;
+        }
+        .tituloForm{
+            font-family: "Open sans";
+            text-align: center;
+            color: #ffffff;
+        }
+        .voltar{
+            color: #ff89ed;
+            display: flex;
+            justify-content: right;
+            align-items: right;
+        }
+        .buttonX{
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .addFoto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+        .addFoto button{
+            background-color: #c63d78;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            padding-left: 40px;
+            padding-right: 40px;
+            cursor: pointer;
+            font-family: "Roboto";
+        }
     </style>
 </head>
 
@@ -146,13 +196,13 @@
                     <img class="logo" src="./logos/logo-ong.png">
                 </div>
                 <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./sobre.html">Sobre</a></li>
-                    <li><a href="./adocao.html">Adoção</a></li>
-                    <li><a href="./comoAjudar.html">Como Ajudar</a></li>
-                    <li><a href="./dicasCuidados.html">Dicas e Cuidados</a></li>
-                    <li><a href="./eventos.html">Eventos</a></li>
-                    <li><a href="faleConosco.html">Fale Conosco</a></li>
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Adoção</li>
+                    <li>Como Ajudar</li>
+                    <li>Dicas e Cuidados</li>
+                    <li>Eventos</li>
+                    <li>Fale Conosco</li>
                 </ul>
             </div>
             <div class="divIsolada"></div>
@@ -207,8 +257,23 @@
             <h2>Compartilhe um Momento</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
-        <div class="buttonGaleria">
-            <a href="./formCompartilhar.html"><button>Compartilhar um Momento</button></a>
+        <div class="formulario">
+            <div class="dadosForm">
+                <div class="camposForm">
+                    <div class="voltar">
+                        <a href="./eventos.html"><img class="buttonX" src="./imagens/buttonX.png" alt=""></a>
+                    </div>
+                    <div class="tituloForm">
+                        <h2>Compartilhar o seu Momento</h2>
+                    </div>
+                    <div class="addFoto">
+                        <button>Adicionar Foto</button>
+                    </div>
+                </div>
+                <div class="buttonGaleria">
+                    <a href="./formCompartilharEnviado.html"><button>Enviar</button></a>
+                </div>
+            </div>   
         </div>
         <div class="divIsolada"></div>
         <footer class="rodape">
